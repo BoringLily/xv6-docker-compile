@@ -17,5 +17,7 @@ When installing Docker Desktop, you can skip the tutorial prompt as it is not re
 This process assumes you have xv6 source code installed.
 If you do not, you can install the file "xv6_patched.tar.gz" from this repository.
 
-after you donwload the repository as a git.
+To download the file. Click on the file:
+![image](https://user-images.githubusercontent.com/53998902/187934692-9229d28a-f834-4c33-a93f-ee783140b576.png)
+
 
