@@ -20,4 +20,5 @@ If you do not, you can install the file "xv6_patched.tar.gz" from this repositor
 To download the file. Click on the file:
 ![image](https://user-images.githubusercontent.com/53998902/187934692-9229d28a-f834-4c33-a93f-ee783140b576.png)
 
-
+On the next page click "Download"
+<img width="1287" alt="image" src="https://user-images.githubusercontent.com/53998902/187935412-dc2787c6-841a-4ff5-9749-37ec21ff0a59.png">
