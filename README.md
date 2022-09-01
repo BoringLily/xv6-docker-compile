@@ -59,7 +59,11 @@ Once the extension is installed it should appear in the tool-bar like so:
 
 ## STEP 4 
 
-Navigate to the toolbar at the top your screen and click on *Terminal -> New Terminal*
+In VScode navigate to the toolbar at the top of your screen and click on *Terminal -> New Terminal* 
+
+This will open a terminal tab at the bottom of the screen in VScode.
+
+
 
 
 
