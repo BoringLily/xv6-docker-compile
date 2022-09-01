@@ -64,7 +64,11 @@ In VScode navigate to the toolbar at the top of your screen and click on *Termin
 
 This will open a terminal tab at the bottom of the screen in VScode.
 
+Make sure you still have the *"xv6_patched"* folder open inside vscode, if you do, run the following command:  
 
+`docker run --name xv6_compile --platform linux/amd64 -v $(pwd):/home/xv6 lilycute/xv6`
+
+This command will install all the 
 
 
 
