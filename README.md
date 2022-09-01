@@ -66,9 +66,44 @@ This will open a terminal tab at the bottom of the screen in VScode.
 
 Make sure you still have the *"xv6_patched"* folder open inside vscode, if you do, run the following command:  
 
-`docker run --name xv6_compile --platform linux/amd64 -ti -v $(pwd):/home/xv6 lilycute/xv6`
+`docker run --name xv6_compile --platform linux/amd64 -ti -d -v $(pwd):/home/xv6 lilycute/xv6`
 
-This command will install all the docker 
+This command will install and setup the docker container and link it to the folder we currently have open in VScode,  
+This means if you ever move the xv6 folder you will need to run this command to create a new container linked to the new folder location.
+
+After running the command you can open the docker extension by clicking the whale log on the left side toolbar:  
+
+<img width="40" alt="image" src="https://user-images.githubusercontent.com/53998902/187949554-cc221898-0d87-4b88-9161-b1888389d445.png">  
+
+When you open that screen you will see the following:  
+
+<img width="301" alt="image" src="https://user-images.githubusercontent.com/53998902/187949747-ee25ae6a-9cbc-47a1-ab9d-8f9b5e91e21a.png">
+
+To complete the installation, right-click on the container  
+
+<img width="298" alt="image" src="https://user-images.githubusercontent.com/53998902/187950126-de1b58b9-9aeb-4a1f-a790-c5e21030fe1c.png">
+
+and then click *stop*  
+![image](https://user-images.githubusercontent.com/53998902/187950442-7f086ee3-79e1-47e0-9c2c-f8993a5d2708.png)
+
+You have now completed the installation and are ready to use the container to compile docker.
+
+# How to run the container and compile xv6
+
+Open VScode and open the xv6 source code folder.
+
+Open the Docker Extension.
+
+<img width="296" alt="image" src="https://user-images.githubusercontent.com/53998902/187951301-77eb5c4b-3383-403e-872a-3a2a4e501c12.png">
+
+The red box on the container means that it is not running, to make it run, right-click on it and select *start*:  
+<img width="304" alt="image" src="https://user-images.githubusercontent.com/53998902/187951745-23db82db-cd30-44e9-999a-27bcfb9be819.png">
+
+When the container is running the red square will turn into a green triangle:  
+<img width="303" alt="image" src="https://user-images.githubusercontent.com/53998902/187952061-1804816b-7259-4e12-a86d-3f9a7c1f6e34.png">
+
+Once the container is running you can right-click on it and click on *Attach Shell*  
+<img width="301" alt="image" src="https://user-images.githubusercontent.com/53998902/187954616-25e85e43-fd93-4451-901a-4b002e9cff23.png"> 
 
 
 
