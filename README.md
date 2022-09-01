@@ -1,5 +1,6 @@
 # xv6-docker-compile
- A docker container that can build and run xv6-i386 with Qemu, the docker container runs on M1 mac
+ A docker container that can build and run xv6-i386 with Qemu. 
+ This container runs on M1 Mac via the Docker Desktop Architecture Emulator.
 
 # How To Setup
 **NOTE: theses instructions are based of the installation process on M1 MacOS as this is the primary usecase for the container** 
