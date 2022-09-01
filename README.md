@@ -105,8 +105,25 @@ When the container is running the red square will turn into a green triangle:
 Once the container is running you can right-click on it and click on *Attach Shell*  
 <img width="301" alt="image" src="https://user-images.githubusercontent.com/53998902/187954616-25e85e43-fd93-4451-901a-4b002e9cff23.png"> 
 
+This will open a shell terminal that is inside the container environment. The docker container has your xv6 folder mounted to the home directory that means that any saved changes inside that folder will also update in the docker container. 
 
+To compile your xv6, while inside the docker shell just run `make qemu-nox clean` this will compile the xv6 code and launche the qemu emulator to run the compiled image.
 
+This is the terminal output when you run the above command:  
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/53998902/187957417-6510bb16-d3e3-46d9-9ac0-1a1994c179a2.png">
 
+You are now running xv6. 
+
+To exit the Qemu environment: Press CTRL+A and then Press X.
+"CTRL+A" is a Qemu command shortcut and X is the exit command.
+
+Whenever you are done with your code, you can keep the docker container running. 
+If you wish to turn of the container while not in use, just navigate to the Docker extension, right click the container and click stop to shutdown the container. 
+
+That is all there is to running the compiler docker container. Once you no-longer need the container, you can just click remove and then you can uninstall the docker app.
+
+# Some random info:
+
+If you ever get some error regarding docker, especially a connection error inside the vscode docker extension, make sure the Docker Desktop app is running.
 
 
